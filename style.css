@@ -43,7 +43,7 @@ body {
   flex: 1;
   margin-right: 16px;
   font-size: 18px;
-  width: 300px;
+  width: 200px;
 }
 
 .search-button {
@@ -83,6 +83,10 @@ body {
   gap: 150px;
   padding: 0 20px;
   margin-top: 50px;
+}
+
+.column {
+  max-width: 100px;
 }
 
 .column-image {
