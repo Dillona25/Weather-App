@@ -11,7 +11,7 @@ const searchButton = document.querySelector(".search-button");
 const weatherImage = document.querySelector(".weather-icon");
 const weather = document.querySelector(".weather");
 
-//* Function to fetch API and display proper values
+//* Function to fetch API and display proper values as well as error message
 async function checkWeather(city) {
   const response = await fetch(apiUrl + city + `&appid=${apiKey}`);
   if (response.status === 404) {
